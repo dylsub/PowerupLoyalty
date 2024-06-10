@@ -31,6 +31,15 @@ export default function Home() {
   const [isTransitioned, setIsTransitioned] = useState(true);
 
 
+  // return (
+  //   <main>
+  //     <h1>I'm a nonchalant dreadhead</h1>
+  //     <h2>Ziad is a bum</h2>
+  //     {users.map((user) => {
+  //       return <h2>{user.username} - {user.id} - {user.age}</h2>
+  //     })}
+  //   </main>
+  // );
   return (
     <div>
       <div className="main">
